@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8">
-  <title>伶牙俐齿 WittyWitty</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>伶牙俐齿 wittywitty</title>
+  <link rel="stylesheet" href="style.css" >
+  <script src="script.js" defer></script>
 </head>
 <body>
 
@@ -14,15 +16,18 @@
 
   <!-- LOGO 区域 -->
   <header>
-    <img src="img/logo.jpg" alt="节目 LOGO">
+    <img src="img/logo.jpg" alt="wittywitty logo" class="logo">
+    <h1>伶牙俐齿 wittywitty</h1>
+    <p>聲音裡的陪伴，思想中的發酵</p>
   </header>
 
-  <!-- 节目卡片列表 -->
-  <main id="episode-list">
-    <!-- 节目卡片由 JS 插入 -->
+  <main>
+    <div id="episodes" class="episode-grid"></div>
   </main>
 
-  <script src="episodes.js"></script>
-  <script src="script.js"></script>
+  <footer>
+    <p>Copyright © 伶牙俐齿 wittywitty</p>
+    <p class="contact-info">聽眾意見反饋：<a href="mailto:wittywitty@example.com">wittywitty@example.com</a></p>
+  </footer>
 </body>
 </html>
